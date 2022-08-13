@@ -1,0 +1,11 @@
+.intro {
+    width: 80vw;
+}
+.ad { 
+    height: 100px;
+    background-color: yellow;
+    width: 100%;
+}
+.search {
+    width: 100%;
+}
