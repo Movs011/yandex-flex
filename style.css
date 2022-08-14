@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 .intro {
     width: 80vw;
 }
@@ -5,7 +7,45 @@
     height: 100px;
     background-color: yellow;
     width: 100%;
+    outline: 1px solid black;
 }
 .search {
     width: 100%;
+}
+.main {width: 100%;
+    height: 600px;
+    border: 1px solid black;
+}
+.news{ height: 100%;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.mainNews {
+height: 50%;
+border: 1px solid black;
+background-color: greenyellow;
+
+}
+.allNews {
+    height: 50%;
+    border: 1px solid black;
+    background-color: aqua;
+
+}
+.aside{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+}
+.wether{
+    height: 50%;
+    border: 1px solid black;
+    background-color: blueviolet;
+
+}
+.aboutMoney{
+    height: 50%;
+    border: 1px solid black;
+    background-color: red;
 }
